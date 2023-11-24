@@ -15,7 +15,7 @@ def add_todo():
 
 def main():
     st.title("To-Do APP")
-    st.subheader("This app is to increase your productivity")
+    st.markdown("This app is to increase your **productivity**")
 
     global todos
     todos = functions.get_todos()
